@@ -13,6 +13,7 @@ Questo progetto implementa, utilizzando il linguaggio di descrizione hardware VH
 <div style="text-align: center;">
      <img src="docs/images/polimi_logo.png" alt="PoliMi Logo" style="display: block; margin: 0 auto; width: 50%"/>
 </div>
+
 ---
 
 ## Funzionalità
