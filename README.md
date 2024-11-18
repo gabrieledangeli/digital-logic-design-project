@@ -81,7 +81,7 @@ L'algoritmo segue questa logica per ogni pixel:
 La macchina a stati finiti è composta da 9 stati principali, tra cui `INIT`, `DELTA`, `TMP PIXEL`, e `END`.  
 Ecco il diagramma degli stati:  
 
-![State Diagram](path/to/state_diagram_image.png)
+![State Diagram](docs/images/state_diagram.png)
 
 ### Utilization Report
 - **Flip-Flop (FF) utilizzati**: 143 (0.05%)
@@ -103,14 +103,13 @@ Ecco il diagramma degli stati:
 
 Esempio di immagine prima e dopo l’equalizzazione:
 
-![Example Image Equalization](path/to/image_example.png)
+![Example Image Equalization](docs/images/algo_example.png)
 
 ---
 
 ## Repository Structure
 
-- `/src`: file VHDL del progetto.
-- `/test`: testbench e script Python per la generazione dei casi di test.
+- `/code`: file VHDL del progetto.
 - `/docs`: documentazione aggiuntiva e immagini.
 
 ---
@@ -121,11 +120,4 @@ Esempio di immagine prima e dopo l’equalizzazione:
 - **Requisiti hardware**: FPGA compatibile con l’utilizzo di 182 LUT e 143 FF.
 
 ---
-
-## Istruzioni
-
-1. Clonare il repository:
-```bash
-git clone https://github.com/your-username/project-repo.git
-
 
