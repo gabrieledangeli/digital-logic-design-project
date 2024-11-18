@@ -2,7 +2,7 @@
 
 ## Introduzione
 
-<img src="docs/images/polimi_logo.svg" alt="Example Image" style="width:40%;"/>
+<img src="docs/images/polimi_logo.svg" alt="Example Image" style="width:50%;"/>
 
 
 Questo progetto implementa, utilizzando il linguaggio di descrizione hardware VHDL, una versione semplificata di un algoritmo standard di equalizzazione dell’istogramma per immagini in scala di grigi. Il sistema è progettato per ricalibrare il contrasto di un’immagine quando i valori di intensità sono molto vicini tra loro, ridistribuendoli su tutto l’intervallo possibile.
